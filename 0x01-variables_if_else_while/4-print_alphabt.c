@@ -9,10 +9,10 @@ int main(void)
 {
 	char c;
 
-	c = 'a'
+	c = 'a';
 	while
 		(c <= 'z') {
-			if ((c != 'q' && c! 'a') && c <= 'z')
+			if ((c != 'q' && c != 'a') && c <= 'z')
 			c++;
 		}
 	putchar('\n');
