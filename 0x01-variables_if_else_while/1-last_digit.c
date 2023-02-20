@@ -7,7 +7,7 @@
 
 /**
  * main - Prints a text according number
- * Return: Always (Success)
+ * Return: Always 0  (Success)
  *
  */
 
