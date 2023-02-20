@@ -21,13 +21,11 @@ int main(void)
 	if (p != d)
 	{
 	putchar(d);
-	putchat(p);
+	putchar(p);
 	if (d == '8' && p == '9')
 	continue;
 	putchat(',');
 	putchar(',');
-	}
-	}
 	}
 	putchar('\n');
 	return (0);
