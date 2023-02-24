@@ -1,4 +1,4 @@
-#include "main.h"                                                                                               /**                                                      * print_triangles - Prints a triangle using # character.                                                        * @size: The size of the triangle.
+#include "main.h"                                                                                               /**                                                      * print_triangle - Prints a triangle using # character.                                                        * @size: The size of the triangle.
  */
                                                         void print_triangle(int size)
 {
