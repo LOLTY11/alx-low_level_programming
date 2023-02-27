@@ -8,7 +8,7 @@
  * Return: nothing
  */
 
-void swap_in(int *p, int *b)
+void swap_int(int *a, int *b)
 /* the function that swaps the values of teo integers. */
 {
 	int temp = *a;
