@@ -4,7 +4,7 @@
  * _strcmp - Compares pointers to two strings.
  * @s1: A pointer to the first string to be compared.
  * @s2: A pointer to the second string to be compared.
- * Return: If str1 < str2, 
+ * Return: If str1 < str2,
  * the negetive difference of the first unmatched characters.
  * If str1 == str2, 0.
  * If str2 > str1, the positive difference of the unmatched characters.
