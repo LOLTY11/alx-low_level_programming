@@ -29,5 +29,5 @@ unsigned int _strpn(char *s, char *accept)
 		a++;
 	}
 
-	return (t)
+	return (t);
 }
