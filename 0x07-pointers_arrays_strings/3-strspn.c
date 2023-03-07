@@ -8,7 +8,7 @@
  * Return: number of bytes in the init segment
  */
 
-unsigned int _strpn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int a = 0, b, t = 0;
 
