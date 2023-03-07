@@ -4,10 +4,10 @@
  * _strchr - locates characters in string
  * @s: source string
  * @c: character to find
- * Return: the string frim character found
+ * Return: the string from character found
  */
 
-void *_strchr(char *s, char c)
+char *_strchr(char *s, char c)
 {
 	int a = 0, b;
 
