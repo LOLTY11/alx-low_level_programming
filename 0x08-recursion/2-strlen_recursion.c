@@ -1,0 +1,19 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * _strlen_recursion - calculate the kength of a string
+ * @s: the string to be counted
+ *
+ * Return: integer value
+ */
+int _strlen_recursion(char *s)
+{
+	if (*s == '\n')
+	{
+		return (0);
+	}
+
+	s++;
+	return (_strlen_recursion(s) + 1);
+}
