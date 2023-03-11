@@ -3,8 +3,8 @@
 
 /**
  * main - functiom
- * @arg: length of argv
- * @arh: number of argument
+ * @argc: length of argv
+ * @arhv: number of argument
  * Return: Always 0
  */
 
