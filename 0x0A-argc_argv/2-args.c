@@ -3,7 +3,7 @@
 
 /**
  * main - prints the name of the program
- * @argc: counts arguments
+ * @argc: count arguments
  * @argv: Arguments
  *
  * Return: Always 0 (Success)
@@ -12,15 +12,15 @@
 int main(int argc, char *argv[])
 
 {
-	int count = 0
-	
+	int count = 0;
+
 	if (argc > 0)
 	{
-	
+
 	while (count < argc)
 	{
 	printf("%s\n", argc[count]);
-	count++
+	count++;
 	}
 	}
 	return (0);
