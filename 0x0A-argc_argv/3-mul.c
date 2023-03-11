@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -20,6 +20,6 @@ int main(int argc, char *argv[])
 	printf("%d\n", a * b);
 	return (0);
 	}
-	printf("error\n");
+	printf("Error\n");
 	return (1);
 }
