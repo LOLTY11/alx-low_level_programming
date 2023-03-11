@@ -4,7 +4,7 @@
 /**
  * main - functiom
  * @argc: length of argv
- * @arhv: number of argument
+ * @argv: number of argument
  * Return: Always 0
  */
 
