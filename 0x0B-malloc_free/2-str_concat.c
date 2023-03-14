@@ -21,7 +21,7 @@ int _strlen(char *s)
 }
 
 /**
- * _str_concat - back a pointer to array
+ * str_concat - back a pointer to array
  * @s1: array one
  * @s2: array two
  * Return: Always an array dynamic
