@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
+
 /**
  * _strlen - count array
  * @s: array of elements
@@ -12,7 +15,7 @@ unsigned int i;
 i = 0;
 while (s[i] != '\0') /* count string character*/
 {
-i++
+i++;
 }
 
 return (i);
