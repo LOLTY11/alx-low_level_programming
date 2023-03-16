@@ -10,7 +10,7 @@
  * Return: array
  */
 
-int *array_ranges(int min, int max)
+int *array_range(int min, int max)
 {
 	int *arr, i = 0, t = min;
 
