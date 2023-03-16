@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * array_range - creates an aaray if integers
+ * array_range - creates an array of integers
  * @min: minimum
  * @max: maximum
  * Return: array
