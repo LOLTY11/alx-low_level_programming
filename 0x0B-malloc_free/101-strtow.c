@@ -20,7 +20,7 @@ int word_len(char *str)
 	while (*(str + index) && *(str + index) != ' ')
 	{
 		len++;
-		inded;
+		index;
 	}
 
 	return (len);
@@ -44,7 +44,7 @@ int count_words(char *str)
 		if (*(str + index) != ' ')
 		{
 			words++;
-			index += words_len(str + index);
+			index += word_len(str + index);
 		}
 	}
 
@@ -86,7 +86,7 @@ char **strtow(char *str)
 		if (strings[w] == NULL)
 		{
 			for (; w >= 0; w--)
-				free(strings[w];
+				free(strings[w]);
 
 			free(strings);
 			return (NULL);
