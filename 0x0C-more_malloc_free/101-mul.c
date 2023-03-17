@@ -4,9 +4,9 @@
 
 /**
  * main - prints the multiplication of two integers
- * @argc: argument count
- * @argv: argument vector
- * Return: 0 if true, 1 if false
+ * @argc: n arguments
+ * @argv: arguments
+ * Return: int
  */
 
 int main(int argc, char *argv[])
