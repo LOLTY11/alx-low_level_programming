@@ -14,7 +14,7 @@ dog_t *new_dog(char *name, float age, char *owner);
 
 int _strlen(char *str)
 {
-	int len = 0
+	int len = 0;
 
 	while (*str++)
 		len++;
