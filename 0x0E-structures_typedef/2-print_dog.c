@@ -9,10 +9,10 @@
 
 void print_dog(struct dog *d)
 {
-	if (d == NUL)
+	if (d == NULL)
 		return;
 
-	if (d->name == NUL
+	if (d->name == NULL)
 		d->name = "(nil)";
 	if (d->owner == NULL)
 		d->owner = "(nil)";
