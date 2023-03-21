@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free_god - free dogs.
+ * free_dog - free dogs.
  * @d: The dog to be freed
  */
 
