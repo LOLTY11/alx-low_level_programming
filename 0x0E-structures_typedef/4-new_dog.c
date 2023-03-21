@@ -23,7 +23,8 @@ int _strlen(char *str)
 }
 
 /**
- * _strcopy - Copies a string pointed to by src, including the terminating null byte, to a buffer pointed to by dest
+ * _strcopy - Copies a string pointed to by src,
+ *		including the terminating null byte, to a buffer pointed to by dest
  * @dest: The buffer storing the string copy
  * @src: The source string
  *
@@ -74,7 +75,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		free(doggo->name);
 		free(doggo);
-		return(NULL);
+		return (NULL);
 	}
 
 	doggo->name = _strcopy(doggo->name, name);
