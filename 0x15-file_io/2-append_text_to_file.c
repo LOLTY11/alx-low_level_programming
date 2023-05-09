@@ -5,9 +5,9 @@
  * @text_content: The string to to be added to the file
  *
  * Return: -1 if function fail or filename is null.
- * 	   -1 if the file does not exist.
- * 	   -1 if the user lacks write permission.
- * 	   Otherwise 1.
+ *	-1 if the file does not exist.
+ *	-1 if the user lacks write permission.
+ *	Otherwise 1.
  */
 
 int append_text_to_file(const char *filename, char *text_content)
@@ -27,7 +27,7 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	if (o == -1 || w == -1)
 		return (-1);
-	
+
 	close(o);
 
 	return (1);
