@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <sys/typrs.h>
+#include <sys/types.h>
 #include <sys/stat.h>
 #include <fntl.h>
 #include <unistd.h>
